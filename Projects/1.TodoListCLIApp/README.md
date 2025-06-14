@@ -33,6 +33,12 @@ Before running this application, ensure you have Lua installed on your system.
 
 - Run Commands: Execute the application using the lua command followed by todo.lua and the desired command.  
 
+  - Install libraries:
+```text
+sudo apt install luarocks
+luarocks install lua-cjson
+```
+
 ```lua
 lua todo.lua
 
